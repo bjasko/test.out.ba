@@ -11,7 +11,7 @@ test.out.ba                     IN SOA  test.out.ba. root.test.out.ba. (
                         MX      1 smtp.test.out.ba.
 $ORIGIN test.out.ba.
 
-zimbra.test.out.ba       IN A   192.168.99.62
+zimbra.test.out.ba.      IN A   192.168.99.62
 smtp.test.out.ba.        IN A   192.168.99.62
 hn1.test.out.ba.         IN A   192.168.99.1
 
