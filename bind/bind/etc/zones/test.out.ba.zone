@@ -1,0 +1,18 @@
+$ORIGIN .
+$TTL 60	; 1 minute
+test.out.ba                     IN SOA  test.out.ba. root.test.out.ba. (
+                                2018200301 ; serial
+                                60         ; refresh (1 minute)
+                                20         ; retry (20 seconds)
+                                1857600    ; expire (3 weeks 12 hours)
+                                10         ; minimum (10 seconds)
+                                )
+                        NS 192.168.99.1
+                        MX      1 smtp.test.out.ba.
+$ORIGIN test.out.ba.
+
+zimbra.test.out.ba       IN A   192.168.99.62
+smtp.test.out.ba.        IN A   192.168.99.62
+hn1.test.out.ba.         IN A   192.168.99.1
+
+
